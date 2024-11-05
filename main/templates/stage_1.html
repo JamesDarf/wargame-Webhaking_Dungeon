@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">/Users/leejeongmin/war_game_make/Webhaking_Dungeon/main/templates/stage_2.html
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Sweet Kingdom</title>
+
+    <!-- <style type="text/css">
+        .h4 {{
+          color: rgb(84, 84, 84);
+          text-align: left;
+        }}
+        pre {{
+          text-align: right;
+        }}
+        .box {{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }}
+      </style> -->
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">Sweet Kingdom</a>
+          </div>
+          <div id="navbar">
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav><br/><br/><br/>
+      <br>
+
+    <div class="container">
+        <div class="box">
+          <p>
+            <form method="POST" action="/stage2">
+                <input type="text" placeholder="pw" value="input_1" name="input_1">
+                <input type="submit" value="submit">
+            </form>
+          </p>
+          <br>
+          <p>stage3 output :
+              {0}
+          </p>
+        </div>
+      </div>
+</body>
+</html>
